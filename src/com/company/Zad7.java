@@ -23,6 +23,7 @@ public class Zad7 {
             case "-" -> System.out.println("Wynik: " + (val1 - val2));
             case "*" -> System.out.println("Wynik: " + val1 * val2);
             case "/" -> System.out.println("Wynik: " + val1 / val2);
+            case "**" -> System.out.println("Wynik: " + Math.pow(val1, val2));
             default -> System.out.println("Nieznany operator: " + operator);
         }
         s.close();
